@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 70;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,23 @@
 		7462744E2E7422EF00F7B182 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746274462E7422EF00F7B182 /* SceneDelegate.swift */; };
 		7462744F2E7422EF00F7B182 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746274472E7422EF00F7B182 /* ViewController.swift */; };
 		746274762E74234D00F7B182 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746274752E74234D00F7B182 /* StartView.swift */; };
+		7462747E2E742B3700F7B182 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746274792E742B3700F7B182 /* CustomButton.swift */; };
+		7462747F2E742B3700F7B182 /* CustomSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7462747A2E742B3700F7B182 /* CustomSegmentedControl.swift */; };
+		746274802E742B3700F7B182 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7462747B2E742B3700F7B182 /* CustomTabBar.swift */; };
+		746274812E742B3700F7B182 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7462747C2E742B3700F7B182 /* CustomTextField.swift */; };
+		746274842E742B3900F7B182 /* OnboardingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746274822E742B3900F7B182 /* OnboardingModel.swift */; };
+		746274872E742B3B00F7B182 /* SimpleDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746274852E742B3B00F7B182 /* SimpleDataManager.swift */; };
+		7462748A2E742B3D00F7B182 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746274882E742B3D00F7B182 /* Theme.swift */; };
+		746274962E742B3E00F7B182 /* AddCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7462748B2E742B3E00F7B182 /* AddCategoryView.swift */; };
+		746274972E742B3E00F7B182 /* AddTipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7462748C2E742B3E00F7B182 /* AddTipView.swift */; };
+		746274982E742B3E00F7B182 /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7462748D2E742B3E00F7B182 /* CategoriesView.swift */; };
+		746274992E742B3E00F7B182 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7462748E2E742B3E00F7B182 /* ContentView.swift */; };
+		7462749A2E742B3E00F7B182 /* EditCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7462748F2E742B3E00F7B182 /* EditCategoryView.swift */; };
+		7462749B2E742B3E00F7B182 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746274902E742B3E00F7B182 /* FavoritesView.swift */; };
+		7462749C2E742B3E00F7B182 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746274912E742B3E00F7B182 /* OnboardingView.swift */; };
+		7462749D2E742B3E00F7B182 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746274922E742B3E00F7B182 /* SettingsView.swift */; };
+		7462749E2E742B3E00F7B182 /* TipDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746274932E742B3E00F7B182 /* TipDetailView.swift */; };
+		7462749F2E742B3E00F7B182 /* TipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746274942E742B3E00F7B182 /* TipsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,18 +43,27 @@
 		746274462E7422EF00F7B182 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		746274472E7422EF00F7B182 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		746274752E74234D00F7B182 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		746274792E742B3700F7B182 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		7462747A2E742B3700F7B182 /* CustomSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegmentedControl.swift; sourceTree = "<group>"; };
+		7462747B2E742B3700F7B182 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		7462747C2E742B3700F7B182 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		746274822E742B3900F7B182 /* OnboardingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingModel.swift; sourceTree = "<group>"; };
+		746274852E742B3B00F7B182 /* SimpleDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleDataManager.swift; sourceTree = "<group>"; };
+		746274882E742B3D00F7B182 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		7462748B2E742B3E00F7B182 /* AddCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCategoryView.swift; sourceTree = "<group>"; };
+		7462748C2E742B3E00F7B182 /* AddTipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTipView.swift; sourceTree = "<group>"; };
+		7462748D2E742B3E00F7B182 /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
+		7462748E2E742B3E00F7B182 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7462748F2E742B3E00F7B182 /* EditCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCategoryView.swift; sourceTree = "<group>"; };
+		746274902E742B3E00F7B182 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		746274912E742B3E00F7B182 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		746274922E742B3E00F7B182 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		746274932E742B3E00F7B182 /* TipDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipDetailView.swift; sourceTree = "<group>"; };
+		746274942E742B3E00F7B182 /* TipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsView.swift; sourceTree = "<group>"; };
 		761FB71405314D1CD5BBAA90 /* Pods-FastTipsbox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastTipsbox.debug.xcconfig"; path = "Target Support Files/Pods-FastTipsbox/Pods-FastTipsbox.debug.xcconfig"; sourceTree = "<group>"; };
 		838EB7FE6D6458D9EA23D950 /* Pods_FastTipsbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FastTipsbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFCD7117A9A6E89F286E9C2E /* Pods-FastTipsbox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastTipsbox.release.xcconfig"; path = "Target Support Files/Pods-FastTipsbox/Pods-FastTipsbox.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		746274542E74232800F7B182 /* Components */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Components; sourceTree = "<group>"; };
-		746274562E74232800F7B182 /* Models */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Models; sourceTree = "<group>"; };
-		746274582E74232800F7B182 /* Storage */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Storage; sourceTree = "<group>"; };
-		7462745A2E74232800F7B182 /* Utilities */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Utilities; sourceTree = "<group>"; };
-		746274642E74232800F7B182 /* Views */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Views; sourceTree = "<group>"; };
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		746274242E7422CE00F7B182 /* Frameworks */ = {
@@ -86,14 +112,66 @@
 				746274452E7422EF00F7B182 /* Main.storyboard */,
 				746274462E7422EF00F7B182 /* SceneDelegate.swift */,
 				746274472E7422EF00F7B182 /* ViewController.swift */,
-				746274542E74232800F7B182 /* Components */,
-				746274562E74232800F7B182 /* Models */,
-				746274582E74232800F7B182 /* Storage */,
-				7462745A2E74232800F7B182 /* Utilities */,
-				746274642E74232800F7B182 /* Views */,
+				7462747D2E742B3700F7B182 /* Components */,
+				746274832E742B3900F7B182 /* Models */,
+				746274862E742B3B00F7B182 /* Storage */,
+				746274892E742B3D00F7B182 /* Utilities */,
+				746274952E742B3E00F7B182 /* Views */,
 				746274752E74234D00F7B182 /* StartView.swift */,
 			);
 			path = FastTipsbox;
+			sourceTree = "<group>";
+		};
+		7462747D2E742B3700F7B182 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				746274792E742B3700F7B182 /* CustomButton.swift */,
+				7462747A2E742B3700F7B182 /* CustomSegmentedControl.swift */,
+				7462747B2E742B3700F7B182 /* CustomTabBar.swift */,
+				7462747C2E742B3700F7B182 /* CustomTextField.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		746274832E742B3900F7B182 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				746274822E742B3900F7B182 /* OnboardingModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		746274862E742B3B00F7B182 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				746274852E742B3B00F7B182 /* SimpleDataManager.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		746274892E742B3D00F7B182 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				746274882E742B3D00F7B182 /* Theme.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		746274952E742B3E00F7B182 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7462748B2E742B3E00F7B182 /* AddCategoryView.swift */,
+				7462748C2E742B3E00F7B182 /* AddTipView.swift */,
+				7462748D2E742B3E00F7B182 /* CategoriesView.swift */,
+				7462748E2E742B3E00F7B182 /* ContentView.swift */,
+				7462748F2E742B3E00F7B182 /* EditCategoryView.swift */,
+				746274902E742B3E00F7B182 /* FavoritesView.swift */,
+				746274912E742B3E00F7B182 /* OnboardingView.swift */,
+				746274922E742B3E00F7B182 /* SettingsView.swift */,
+				746274932E742B3E00F7B182 /* TipDetailView.swift */,
+				746274942E742B3E00F7B182 /* TipsView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		9FCFDEE28F6E4FF90AB81923 /* Pods */ = {
@@ -120,13 +198,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				746274542E74232800F7B182 /* Components */,
-				746274562E74232800F7B182 /* Models */,
-				746274582E74232800F7B182 /* Storage */,
-				7462745A2E74232800F7B182 /* Utilities */,
-				746274642E74232800F7B182 /* Views */,
 			);
 			name = FastTipsbox;
 			productName = FastTipsbox;
@@ -211,6 +282,23 @@
 			files = (
 				7462744D2E7422EF00F7B182 /* AppDelegate.swift in Sources */,
 				7462744E2E7422EF00F7B182 /* SceneDelegate.swift in Sources */,
+				7462747E2E742B3700F7B182 /* CustomButton.swift in Sources */,
+				746274962E742B3E00F7B182 /* AddCategoryView.swift in Sources */,
+				746274972E742B3E00F7B182 /* AddTipView.swift in Sources */,
+				746274982E742B3E00F7B182 /* CategoriesView.swift in Sources */,
+				746274992E742B3E00F7B182 /* ContentView.swift in Sources */,
+				7462749A2E742B3E00F7B182 /* EditCategoryView.swift in Sources */,
+				7462749B2E742B3E00F7B182 /* FavoritesView.swift in Sources */,
+				7462749C2E742B3E00F7B182 /* OnboardingView.swift in Sources */,
+				7462749D2E742B3E00F7B182 /* SettingsView.swift in Sources */,
+				7462749E2E742B3E00F7B182 /* TipDetailView.swift in Sources */,
+				7462749F2E742B3E00F7B182 /* TipsView.swift in Sources */,
+				7462747F2E742B3700F7B182 /* CustomSegmentedControl.swift in Sources */,
+				746274802E742B3700F7B182 /* CustomTabBar.swift in Sources */,
+				7462748A2E742B3D00F7B182 /* Theme.swift in Sources */,
+				746274812E742B3700F7B182 /* CustomTextField.swift in Sources */,
+				746274872E742B3B00F7B182 /* SimpleDataManager.swift in Sources */,
+				746274842E742B3900F7B182 /* OnboardingModel.swift in Sources */,
 				746274762E74234D00F7B182 /* StartView.swift in Sources */,
 				7462744F2E7422EF00F7B182 /* ViewController.swift in Sources */,
 			);
@@ -259,7 +347,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = home.FastTipsbox;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mar.f4stt1pb0x;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -292,7 +380,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = home.FastTipsbox;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mar.f4stt1pb0x;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;

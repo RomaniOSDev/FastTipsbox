@@ -120,7 +120,7 @@ struct SettingsView: View {
     }
     
     private func openPrivacyPolicy() {
-        if let url = URL(string: "https://example.com/privacy") {
+        if let url = URL(string: "https://www.termsfeed.com/live/b6db381a-7db1-4780-a8ac-ed9789c5a79a") {
             UIApplication.shared.open(url)
         }
     }
