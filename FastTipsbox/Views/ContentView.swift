@@ -87,21 +87,7 @@ struct ContentView: View {
     }
     
     private func ensureDataLoaded() {
-        print("📱 ContentView: Ensuring data is loaded...")
-        print("📱 ContentView: Current tips count: \(dataManager.tips.count)")
-        print("📱 ContentView: Current categories count: \(dataManager.categories.count)")
-        
-        // FORCE CREATE DATA IF EMPTY
-        if dataManager.tips.isEmpty || dataManager.categories.isEmpty {
-            print("📱 ContentView: Data is empty, forcing creation...")
-            dataManager.resetData()
-            
-            // Force UI update after data creation
-            DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
-                print("📱 ContentView: Data created - tips: \(dataManager.tips.count), categories: \(dataManager.categories.count)")
-                selectedTab = 0 // Force refresh of Tips tab
-            }
-        }
+        print("📱 ContentView: Data loaded - tips: \(dataManager.tips.count), categories: \(dataManager.categories.count)")
     }
 }
 

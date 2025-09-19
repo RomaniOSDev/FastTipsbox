@@ -11,30 +11,17 @@ class SimpleDataManager: ObservableObject {
     init() {
         print("🚀 SimpleDataManager: Initializing...")
         
-        // ALWAYS RESET AND CREATE DATA
-        tips.removeAll()
-        categories.removeAll()
-        createDefaultCategories()
-        createDefaultTips()
+        // Load existing data first
+        loadData()
+        
+        // If no data exists, create default data
+        if tips.isEmpty || categories.isEmpty {
+            print("📱 SimpleDataManager: No data found, creating default data...")
+            createDefaultCategories()
+            createDefaultTips()
+        }
         
         print("📊 SimpleDataManager: Initialization complete - \(tips.count) tips, \(categories.count) categories")
-        
-        // TRIPLE CHECK - FORCE CREATE IF STILL EMPTY
-        if tips.isEmpty || categories.isEmpty {
-            print("❌ SimpleDataManager: Still empty after init, forcing creation...")
-            resetData()
-        }
-        
-        // FINAL CHECK
-        if tips.isEmpty || categories.isEmpty {
-            print("💀 SimpleDataManager: CRITICAL ERROR - Still empty after all attempts!")
-            // Create at least one tip manually
-            let emergencyCategory = CategoryItem(name: "Emergency", icon: "exclamationmark.triangle", color: "#FF0000")
-            categories.append(emergencyCategory)
-            let emergencyTip = TipItem(title: "Emergency Tip", content: "This is an emergency tip to ensure data exists", categoryId: emergencyCategory.id, tags: "emergency")
-            tips.append(emergencyTip)
-            saveData()
-        }
     }
     
     func loadData() {
