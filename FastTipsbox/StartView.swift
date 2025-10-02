@@ -2,7 +2,7 @@
 //  StartView.swift
 //  FastTipsbox
 //
-//  Created by Роман Главацкий on 12.09.2025.
+//  Created by Feather Jason on 12.09.2025.
 //
 
 import SwiftUI

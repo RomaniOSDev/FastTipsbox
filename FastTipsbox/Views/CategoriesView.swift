@@ -1,3 +1,10 @@
+//
+//  CategoriesView.swift
+//  FastTipsbox
+//
+//  Created by Feather Jason on 12.09.2025.
+//
+
 import SwiftUI
 
 struct CategoriesView: View {

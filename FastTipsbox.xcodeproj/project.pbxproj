@@ -31,9 +31,6 @@
 		7462749D2E742B3E00F7B182 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746274922E742B3E00F7B182 /* SettingsView.swift */; };
 		7462749E2E742B3E00F7B182 /* TipDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746274932E742B3E00F7B182 /* TipDetailView.swift */; };
 		7462749F2E742B3E00F7B182 /* TipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746274942E742B3E00F7B182 /* TipsView.swift */; };
-		74A986022E7D46E900FE317A /* LoaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A986002E7D46E900FE317A /* LoaderViewController.swift */; };
-		74A986032E7D46E900FE317A /* CheckLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A985FE2E7D46E900FE317A /* CheckLink.swift */; };
-		74A986042E7D46E900FE317A /* InternetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A985FF2E7D46E900FE317A /* InternetViewController.swift */; };
 		74A986082E7D473200FE317A /* AppsFlyerLib in Frameworks */ = {isa = PBXBuildFile; productRef = 74A986072E7D473200FE317A /* AppsFlyerLib */; };
 		74A9860B2E7D475100FE317A /* OneSignalExtension in Frameworks */ = {isa = PBXBuildFile; productRef = 74A9860A2E7D475100FE317A /* OneSignalExtension */; };
 		74A9860D2E7D475100FE317A /* OneSignalFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 74A9860C2E7D475100FE317A /* OneSignalFramework */; };
@@ -68,9 +65,6 @@
 		746274922E742B3E00F7B182 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		746274932E742B3E00F7B182 /* TipDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipDetailView.swift; sourceTree = "<group>"; };
 		746274942E742B3E00F7B182 /* TipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsView.swift; sourceTree = "<group>"; };
-		74A985FE2E7D46E900FE317A /* CheckLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckLink.swift; sourceTree = "<group>"; };
-		74A985FF2E7D46E900FE317A /* InternetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetViewController.swift; sourceTree = "<group>"; };
-		74A986002E7D46E900FE317A /* LoaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderViewController.swift; sourceTree = "<group>"; };
 		74A986052E7D471000FE317A /* FastTipsbox.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FastTipsbox.entitlements; sourceTree = "<group>"; };
 		761FB71405314D1CD5BBAA90 /* Pods-FastTipsbox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastTipsbox.debug.xcconfig"; path = "Target Support Files/Pods-FastTipsbox/Pods-FastTipsbox.debug.xcconfig"; sourceTree = "<group>"; };
 		838EB7FE6D6458D9EA23D950 /* Pods_FastTipsbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FastTipsbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -188,19 +182,8 @@
 				746274922E742B3E00F7B182 /* SettingsView.swift */,
 				746274932E742B3E00F7B182 /* TipDetailView.swift */,
 				746274942E742B3E00F7B182 /* TipsView.swift */,
-				74A986012E7D46E900FE317A /* LoadingView */,
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		74A986012E7D46E900FE317A /* LoadingView */ = {
-			isa = PBXGroup;
-			children = (
-				74A985FE2E7D46E900FE317A /* CheckLink.swift */,
-				74A985FF2E7D46E900FE317A /* InternetViewController.swift */,
-				74A986002E7D46E900FE317A /* LoaderViewController.swift */,
-			);
-			path = LoadingView;
 			sourceTree = "<group>";
 		};
 		9FCFDEE28F6E4FF90AB81923 /* Pods */ = {
@@ -317,9 +300,6 @@
 				7462744E2E7422EF00F7B182 /* SceneDelegate.swift in Sources */,
 				7462747E2E742B3700F7B182 /* CustomButton.swift in Sources */,
 				746274962E742B3E00F7B182 /* AddCategoryView.swift in Sources */,
-				74A986022E7D46E900FE317A /* LoaderViewController.swift in Sources */,
-				74A986032E7D46E900FE317A /* CheckLink.swift in Sources */,
-				74A986042E7D46E900FE317A /* InternetViewController.swift in Sources */,
 				746274972E742B3E00F7B182 /* AddTipView.swift in Sources */,
 				746274982E742B3E00F7B182 /* CategoriesView.swift in Sources */,
 				746274992E742B3E00F7B182 /* ContentView.swift in Sources */,
@@ -384,7 +364,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mar.f4stt1pb0x;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -419,7 +399,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mar.f4stt1pb0x;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";

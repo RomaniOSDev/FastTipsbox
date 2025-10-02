@@ -1,3 +1,10 @@
+//
+//  SimpleDataManager.swift
+//  FastTipsbox
+//
+//  Created by Feather Jason on 12.09.2025.
+//
+
 import Foundation
 import SwiftUI
 
