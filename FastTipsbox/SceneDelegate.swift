@@ -15,8 +15,15 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         guard let windowScene = (scene as? UIWindowScene) else {return}
         window = UIWindow(windowScene: windowScene)
-        window?.rootViewController = UIHostingController(rootView: StartView())
+        
+        let controller: UIViewController
+            controller = LoadingSplash()
+        window?.rootViewController = controller
         window?.makeKeyAndVisible()
+
+        for context in connectionOptions.urlContexts {
+            AppsFlyerLib.shared().handleOpen(context.url, options: nil)
+        }
     }
 
     // 3. Явно указываем имена параметров для избежания неоднозначности

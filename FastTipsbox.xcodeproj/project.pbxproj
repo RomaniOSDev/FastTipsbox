@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7405C5E22E91B92300C4D1EA /* LoaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7405C5E02E91B92300C4D1EA /* LoaderViewController.swift */; };
+		7405C5E32E91B92300C4D1EA /* CheckLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7405C5DE2E91B92300C4D1EA /* CheckLink.swift */; };
+		7405C5E42E91B92300C4D1EA /* InternetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7405C5DF2E91B92300C4D1EA /* InternetViewController.swift */; };
 		746274492E7422EF00F7B182 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 746274402E7422EF00F7B182 /* Assets.xcassets */; };
 		7462744B2E7422EF00F7B182 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 746274432E7422EF00F7B182 /* LaunchScreen.storyboard */; };
 		7462744C2E7422EF00F7B182 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 746274452E7422EF00F7B182 /* Main.storyboard */; };
@@ -39,6 +42,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7405C5DE2E91B92300C4D1EA /* CheckLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckLink.swift; sourceTree = "<group>"; };
+		7405C5DF2E91B92300C4D1EA /* InternetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetViewController.swift; sourceTree = "<group>"; };
+		7405C5E02E91B92300C4D1EA /* LoaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderViewController.swift; sourceTree = "<group>"; };
 		746274272E7422CE00F7B182 /* FastTipsbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastTipsbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7462743F2E7422EF00F7B182 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		746274402E7422EF00F7B182 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -95,6 +101,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		7405C5E12E91B92300C4D1EA /* LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				7405C5DE2E91B92300C4D1EA /* CheckLink.swift */,
+				7405C5DF2E91B92300C4D1EA /* InternetViewController.swift */,
+				7405C5E02E91B92300C4D1EA /* LoaderViewController.swift */,
+			);
+			path = LoadingView;
+			sourceTree = "<group>";
+		};
 		7462741E2E7422CE00F7B182 = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +132,7 @@
 		746274482E7422EF00F7B182 /* FastTipsbox */ = {
 			isa = PBXGroup;
 			children = (
+				7405C5E12E91B92300C4D1EA /* LoadingView */,
 				74A986052E7D471000FE317A /* FastTipsbox.entitlements */,
 				7462743F2E7422EF00F7B182 /* AppDelegate.swift */,
 				746274402E7422EF00F7B182 /* Assets.xcassets */,
@@ -300,6 +317,9 @@
 				7462744E2E7422EF00F7B182 /* SceneDelegate.swift in Sources */,
 				7462747E2E742B3700F7B182 /* CustomButton.swift in Sources */,
 				746274962E742B3E00F7B182 /* AddCategoryView.swift in Sources */,
+				7405C5E22E91B92300C4D1EA /* LoaderViewController.swift in Sources */,
+				7405C5E32E91B92300C4D1EA /* CheckLink.swift in Sources */,
+				7405C5E42E91B92300C4D1EA /* InternetViewController.swift in Sources */,
 				746274972E742B3E00F7B182 /* AddTipView.swift in Sources */,
 				746274982E742B3E00F7B182 /* CategoriesView.swift in Sources */,
 				746274992E742B3E00F7B182 /* ContentView.swift in Sources */,
@@ -364,7 +384,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1.1;
+				MARKETING_VERSION = 1.1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mar.f4stt1pb0x;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -399,7 +419,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1.1;
+				MARKETING_VERSION = 1.1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mar.f4stt1pb0x;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
