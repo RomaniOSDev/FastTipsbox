@@ -7,7 +7,6 @@
 
 import UIKit
 import SwiftUI
-import OneSignalFramework
 import AppsFlyerLib
 
 class LoadingSplash: UIViewController {
